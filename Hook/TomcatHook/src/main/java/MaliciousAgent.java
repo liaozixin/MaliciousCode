@@ -8,7 +8,7 @@ public class MaliciousAgent {
 
     private static void executeCommand() {
         try {
-            // 执行 cat /etc/passwd 指令
+            // 执行指令
             Process process = Runtime.getRuntime().exec("whoami");
             process.waitFor();
 
